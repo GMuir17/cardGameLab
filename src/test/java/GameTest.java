@@ -27,4 +27,10 @@ public class GameTest {
         assertEquals("Eliminator", game.getName());
     }
 
+    @Test
+    public void canCreateDeck(){
+        game.createDeck(deck);
+        assertEquals(52, deck.cardCount() );
+    }
+
 }
