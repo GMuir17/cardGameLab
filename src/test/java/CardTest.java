@@ -1,4 +1,7 @@
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class CardTest {
 
@@ -9,7 +12,10 @@ public class CardTest {
         card = new Card(SuitType.HEARTS, RankType.KING);
     }
 
-
+    @Test
+    public void canGetSuit() {
+        assertEquals(SuitType.HEARTS, card.getSuit());
+    }
 
 
 }
