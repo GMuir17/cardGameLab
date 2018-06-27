@@ -38,6 +38,8 @@ public class GameTest {
        game.createDeck(deck);
        game.deal(deck, player1, player2);
        assertEquals(50, deck.cardCount());
+       assertEquals(1, player1.countHand());
+       assertEquals(1, player2.countHand());
     }
 
 }

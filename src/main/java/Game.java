@@ -25,8 +25,7 @@ public class Game {
         deck.shuffleCards();
         Card card1 = deck.removeCard();
         Card card2 = deck.removeCard();
-
-
-
+        player1.addCardToHand(card1);
+        player2.addCardToHand(card2);
     }
 }
