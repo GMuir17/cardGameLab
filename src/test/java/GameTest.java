@@ -11,6 +11,7 @@ public class GameTest {
     Deck deck;
     Card card1;
     Card card2;
+    Card card3;
 
     @Before
     public void Before() {
@@ -20,6 +21,7 @@ public class GameTest {
         deck = new Deck();
         card1 = new Card(SuitType.CLUBS, RankType.QUEEN);
         card2 = new Card(SuitType.HEARTS, RankType.FIVE);
+        card3 = new Card(SuitType.SPADES, RankType.FIVE);
     }
 
     @Test
@@ -41,5 +43,18 @@ public class GameTest {
        assertEquals(1, player1.countHand());
        assertEquals(1, player2.countHand());
     }
+
+    @Test
+    public void canCheckPlayersCardsRank() {
+        player1.addCardToHand(card2);
+        assertEquals(5, player1.getCardRank());
+    }
+
+//    @Test
+//    public void checkWinnerPlayer1Wins() {
+//        game.createDeck(deck);
+//        game.deal(deck, player1, player2);
+//
+//    }
 
 }

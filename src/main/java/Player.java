@@ -21,4 +21,9 @@ public class Player {
     public void addCardToHand(Card card) {
         this.hand.add(card);
     }
+
+    public int getCardRank() {
+        Card playerCard = hand.remove(0);
+        return playerCard.getRank().getValue();
+    }
 }
