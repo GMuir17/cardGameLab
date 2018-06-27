@@ -7,6 +7,9 @@ public class CardTest {
     @Before
     public void before(){
         card = new Card(SuitType.HEARTS, RankType.KING);
-
     }
+
+
+
+
 }

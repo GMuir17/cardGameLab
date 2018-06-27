@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eliminatorGame.iml" filepath="$PROJECT_DIR$/.idea/modules/eliminatorGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eliminatorGame_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eliminatorGame_main.iml" group="eliminatorGame" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eliminatorGame_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eliminatorGame_test.iml" group="eliminatorGame" />
     </modules>
   </component>
 </project>
