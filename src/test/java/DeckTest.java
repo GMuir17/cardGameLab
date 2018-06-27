@@ -25,4 +25,11 @@ public class DeckTest {
         assertEquals(1, deck.cardCount());
     }
 
+    @Test
+    public void canRemoveCard() {
+        deck.addCard(card);
+        deck.removeCard();
+        assertEquals(0, deck.cardCount());
+    }
+
 }
