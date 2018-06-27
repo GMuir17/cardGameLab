@@ -25,8 +25,12 @@ public class Game {
         deck.shuffleCards();
         Card card1 = deck.removeCard();
         Card card2 = deck.removeCard();
+        Card card3 = deck.removeCard();
+        Card card4 = deck.removeCard();
         player1.addCardToHand(card1);
         player2.addCardToHand(card2);
+        player1.addCardToHand(card3);
+        player2.addCardToHand(card4);
     }
 
     public Player checkWinner(Player player1, Player player2) {
