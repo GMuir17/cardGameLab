@@ -50,11 +50,20 @@ public class GameTest {
         assertEquals(5, player1.getCardRank());
     }
 
-//    @Test
-//    public void checkWinnerPlayer1Wins() {
-//        game.createDeck(deck);
-//        game.deal(deck, player1, player2);
-//
-//    }
+    @Test
+    public void checkWinnerPlayer1Wins() {
+        player1.addCardToHand(card1);
+        player2.addCardToHand(card2);
+        Player winner = game.checkWinner(player1, player2);
+        assertEquals(player1, winner);
+    }
+
+    @Test
+    public void checkWinnerPlayer2Wins() {
+        player1.addCardToHand(card2);
+        player2.addCardToHand(card1);
+        Player winner = game.checkWinner(player1, player2);
+        assertEquals(player2, winner);
+    }
 
 }

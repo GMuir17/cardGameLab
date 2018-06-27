@@ -28,4 +28,15 @@ public class Game {
         player1.addCardToHand(card1);
         player2.addCardToHand(card2);
     }
+
+    public Player checkWinner(Player player1, Player player2) {
+        int value1 = player1.getCardRank();
+        int value2 = player2.getCardRank();
+        if (value1 > value2) {
+            return player1;
+        }
+        else {
+            return player2;
+        }
+    }
 }
