@@ -21,4 +21,11 @@ public class Game {
         }
     }
 
+    public void deal(Deck deck, Player player1, Player player2) {
+        deck.shuffleCards();
+        Card card1 = deck.removeCard();
+        Card card2 = deck.removeCard();
+
+
+    }
 }

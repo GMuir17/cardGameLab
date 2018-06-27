@@ -21,4 +21,6 @@ public class PlayerTest {
     public void handStartsEmpty() {
         assertEquals(0, player.countHand());
     }
+
+    @Test
 }
