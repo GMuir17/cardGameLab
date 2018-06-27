@@ -26,4 +26,10 @@ public class Player {
         Card playerCard = hand.remove(0);
         return playerCard.getRank().getValue();
     }
+
+    public int totalHandValue() {
+        int value1 = getCardRank();
+        int value2 = getCardRank();
+        return (value1 + value2);
+    }
 }
