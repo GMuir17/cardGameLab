@@ -32,6 +32,7 @@ public class Game {
     public Player checkWinner(Player player1, Player player2) {
         int value1 = player1.getCardRank();
         int value2 = player2.getCardRank();
+        if (value1 == value2) return null;
         if (value1 > value2) {
             return player1;
         }
@@ -39,4 +40,5 @@ public class Game {
             return player2;
         }
     }
+
 }

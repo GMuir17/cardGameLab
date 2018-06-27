@@ -66,4 +66,11 @@ public class GameTest {
         assertEquals(player2, winner);
     }
 
+    @Test
+    public void checkForDraw() {
+        player1.addCardToHand(card2);
+        player2.addCardToHand(card3);
+        Player winner = game.checkWinner(player1, player2);
+        assertEquals(null, winner);
+    }
 }

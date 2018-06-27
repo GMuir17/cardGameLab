@@ -109,8 +109,8 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="261">
+              <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
               <folding>
                 <element signature="e#76#77#0" expanded="true" />
                 <element signature="e#108#109#0" expanded="true" />
@@ -139,8 +139,8 @@
       <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+            <state relative-caret-position="381">
+              <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#638#639#0" expanded="true" />
@@ -463,8 +463,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Deck.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Game.java" />
         <option value="$PROJECT_DIR$/src/test/java/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Game.java" />
       </list>
     </option>
   </component>
@@ -610,6 +610,26 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="GameTest.checkForDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="eliminatorGame_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="checkForDraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="GameTest.checkWinnerPlayer1Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="eliminatorGame_test" />
@@ -638,26 +658,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameTest" />
       <option name="METHOD_NAME" value="checkWinnerPlayer2Wins" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PlayerTest.canAddCardToHand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="eliminatorGame_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
-      <option name="METHOD_NAME" value="canAddCardToHand" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -732,18 +732,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.GameTest.canDealCards" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PlayerTest.canAddCardToHand" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest.canCheckPlayersCardsRank" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GameTest.checkWinnerPlayer1Wins" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GameTest.checkWinnerPlayer2Wins" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.canCheckPlayersCardsRank" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest.checkWinnerPlayer1Wins" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GameTest.checkWinnerPlayer2Wins" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GameTest.checkForDraw" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.GameTest.checkWinnerPlayer2Wins" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.checkWinnerPlayer1Wins" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest.canCheckPlayersCardsRank" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GameTest.canDealCards" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PlayerTest.canAddCardToHand" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.checkForDraw" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest.checkWinnerPlayer1Wins" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GameTest.canCheckPlayersCardsRank" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GameTest.canDealCards" />
       </list>
     </recent_temporary>
   </component>
@@ -782,17 +782,17 @@
     <history-entry file="GameTest_canDealCards - 2018.06.27 at 13h 30m 01s.xml">
       <configuration name="GameTest.canDealCards" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GameTest_checkForDraw - 2018.06.27 at 13h 54m 17s.xml">
+      <configuration name="GameTest.checkForDraw" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="GameTest_checkWinnerPlayer1Wins - 2018.06.27 at 13h 45m 34s.xml">
       <configuration name="GameTest.checkWinnerPlayer1Wins" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest - 2018.06.27 at 11h 36m 23s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
+    <history-entry file="GameTest_checkWinnerPlayer2Wins - 2018.06.27 at 13h 46m 10s.xml">
+      <configuration name="GameTest.checkWinnerPlayer2Wins" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PlayerTest_canAddCardToHand - 2018.06.27 at 13h 27m 52s.xml">
       <configuration name="PlayerTest.canAddCardToHand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_handStartsEmpty - 2018.06.27 at 11h 38m 44s.xml">
-      <configuration name="PlayerTest.handStartsEmpty" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -950,8 +950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="261">
+          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
             <element signature="e#76#77#0" expanded="true" />
             <element signature="e#108#109#0" expanded="true" />
@@ -963,8 +963,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        <state relative-caret-position="381">
+          <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#638#639#0" expanded="true" />
